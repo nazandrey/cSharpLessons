@@ -1,0 +1,5 @@
+C:\!C#\Money\Money\bin\Debug\Money.dll
+C:\!C#\Money\Money\bin\Debug\Money.pdb
+C:\!C#\Money\Money\obj\Debug\Money.dll
+C:\!C#\Money\Money\obj\Debug\Money.pdb
+C:\!C#\Money\Money\obj\Debug\Money.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\!C#\MoneyEntryManager\MoneyEntryManager\bin\Debug\MoneyEntryManager.dll
+C:\!C#\MoneyEntryManager\MoneyEntryManager\bin\Debug\MoneyEntryManager.pdb
+C:\!C#\MoneyEntryManager\MoneyEntryManager\bin\Debug\Money.dll
+C:\!C#\MoneyEntryManager\MoneyEntryManager\bin\Debug\Money.pdb
+C:\!C#\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManager.csprojResolveAssemblyReference.cache
+C:\!C#\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManager.dll
+C:\!C#\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManager.pdb

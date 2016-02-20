@@ -1,0 +1,2 @@
+C:\!C#\Lesson6\Lesson6\Fakes\MoneyEntry.fakes : warning : Cannot generate stub for MoneyEntry.MoneyEntry: type is not visible to exported or assembly(MoneyEntry.1.0.0.0.Fakes).
+C:\!C#\Lesson6\Lesson6\Fakes\MoneyEntry.fakes : warning : Cannot generate shim for MoneyEntry.MoneyEntry: type is not visible to exported or assembly(MoneyEntry.1.0.0.0.Fakes).
