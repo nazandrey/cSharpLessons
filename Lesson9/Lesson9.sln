@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson9", "Lesson6\Lesson9.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money", "..\Money\Money\Money.csproj", "{D61F31F9-382F-47AE-9AD0-1CAA98F08EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyEntryManager", "..\MoneyEntryManager\MoneyEntryManager\MoneyEntryManager.csproj", "{A30DB0D6-32E9-48D0-BFE7-048157AA12E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyEntryManagerLib", "..\MoneyEntryManager\MoneyEntryManager\MoneyEntryManagerLib.csproj", "{A30DB0D6-32E9-48D0-BFE7-048157AA12E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterLib", "Filter\FilterLib.csproj", "{F7A5B370-11D7-4ED7-88D7-C839BF78A95A}"
 EndProject

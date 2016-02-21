@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Money;
+using FilterLib;
 
-namespace MoneyEntryManager
+namespace MoneyEntryManagerLib
 {
     public class MoneyEntryManager
     {
         private List<MoneyEntry> _entries;
-        //private Filter _filter;
+        private TextFilter<MoneyEntry> _textFilter;
 
         public MoneyEntryManager() {
             _entries = new List<MoneyEntry>();
@@ -32,18 +33,34 @@ namespace MoneyEntryManager
             this.AddEntry(me);
         }
 
+        public TextFilter<MoneyEntry> TextFilter{
+            get
+            {
+                return _textFilter;
+            }
+            set
+            {
+                _textFilter = value;
+            }
+        }
+
         public List<MoneyEntry> Entries{
             get{ return _entries; }            
         }
 
         public List<MoneyEntry> FilteredEntries
         {
-            get {
-                //filter _entries;
-                return _entries;
+            get
+            {
+                if (_textFilter != null)
+                {
+                    return (List<MoneyEntry>)_textFilter.CheckList(_entries);
+                }
+                else
+                {
+                    return null;
+                }
             }
         }
-
-
     }
 }

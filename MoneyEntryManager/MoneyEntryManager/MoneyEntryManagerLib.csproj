@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Lesson9\Filter\FilterLib.csproj">
+      <Project>{f7a5b370-11d7-4ed7-88d7-c839bf78a95a}</Project>
+      <Name>FilterLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Money\Money\Money.csproj">
       <Project>{d61f31f9-382f-47ae-9ad0-1caa98f08edf}</Project>
       <Name>Money</Name>

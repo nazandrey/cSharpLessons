@@ -3,3 +3,8 @@ C:\!C#\Money\Money\bin\Debug\Money.pdb
 C:\!C#\Money\Money\obj\Debug\Money.dll
 C:\!C#\Money\Money\obj\Debug\Money.pdb
 C:\!C#\Money\Money\obj\Debug\Money.csprojResolveAssemblyReference.cache
+D:\Projects\C# base course\!BitBucket\c-_lessons\Money\Money\bin\Debug\Money.dll
+D:\Projects\C# base course\!BitBucket\c-_lessons\Money\Money\bin\Debug\Money.pdb
+D:\Projects\C# base course\!BitBucket\c-_lessons\Money\Money\obj\Debug\Money.csprojResolveAssemblyReference.cache
+D:\Projects\C# base course\!BitBucket\c-_lessons\Money\Money\obj\Debug\Money.dll
+D:\Projects\C# base course\!BitBucket\c-_lessons\Money\Money\obj\Debug\Money.pdb
