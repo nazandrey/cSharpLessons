@@ -67,12 +67,11 @@ namespace FilterLib
 
         public override bool IsValid(T item)
         {
-            bool isValid = true;
-            foreach (string property in _propertyList)
-            {
-                if (!isValid) { break; }
+            bool isValid = false;
+            foreach (string property in _propertyList){                
                 string comparingValue = item.GetType().GetProperty(property).GetValue(item, null).ToString();
-                isValid = isValid && IsValidProperty(comparingValue, _pattern);
+                isValid = !isValid && IsValidProperty(comparingValue, _pattern);
+                if (isValid) { break; }
             }
             return isValid;
         }        

@@ -353,6 +353,7 @@
             this.buttonFilterClear.TabIndex = 2;
             this.buttonFilterClear.Text = "Сброс";
             this.buttonFilterClear.UseVisualStyleBackColor = true;
+            this.buttonFilterClear.Click += new System.EventHandler(this.buttonFilterClear_Click);
             // 
             // buttonFilter
             // 

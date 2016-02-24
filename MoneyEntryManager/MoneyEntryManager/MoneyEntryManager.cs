@@ -54,7 +54,7 @@ namespace MoneyEntryManagerLib
             {
                 if (_textFilter != null)
                 {
-                    return (List<MoneyEntry>)_textFilter.CheckList(_entries);
+                    return _textFilter.CheckList(_entries).ToList();
                 }
                 else
                 {

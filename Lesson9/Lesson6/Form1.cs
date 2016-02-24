@@ -19,7 +19,7 @@ namespace Lesson9
     {
         private readonly string[] FILTER_PROPERTY_ARR = {
             "Amount"
-            ,"Date"
+            ,"EntryDate"
             ,"Category"
             ,"Description"
         };
@@ -48,6 +48,10 @@ namespace Lesson9
         private void Form1_Load(object sender, EventArgs e)
         {
             _balance = 0;
+            foreach (MoneyEntry me in meManager.Entries)
+            {
+                AddMoneyEntry(me);
+            }
         }        
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -65,6 +69,7 @@ namespace Lesson9
         private void AddMoneyEntry(MoneyEntry me)
         {
             tableEntry.Rows.Add(me.IsDebt ? "Расход" : "Доход", me.Amount, me.EntryDate, me.Category, me.Description);
+            tableFilteredEntryArr.Rows.Add(me.IsDebt ? "Расход" : "Доход", me.Amount, me.EntryDate, me.Category, me.Description);
 
             _ClearFieldArr();
         }
@@ -110,7 +115,7 @@ namespace Lesson9
 
         private void buttonFilter_Click(object sender, EventArgs e)
         {
-            tableEntry.Rows.Clear();
+            tableFilteredEntryArr.Rows.Clear();
             meManager.TextFilter = getTextFilter(textBoxPattern.Text, comboBoxFilterType.SelectedIndex);
             List<MoneyEntry> filteredEntries = meManager.FilteredEntries;
             foreach (MoneyEntry me in filteredEntries)
@@ -133,6 +138,16 @@ namespace Lesson9
                 default:
                     return null;
             }
+        }
+
+        private void buttonFilterClear_Click(object sender, EventArgs e)
+        {
+            tableFilteredEntryArr.Rows.Clear();
+            textBoxPattern.Text = "";
+            foreach (MoneyEntry me in meManager.Entries)
+            {
+                AddMoneyEntry(me);
+            };
         }
     }
 }

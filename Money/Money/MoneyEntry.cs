@@ -42,9 +42,9 @@ namespace Money
             set { if (value == true && _amount >= 0 || value == false && _amount <= 0) { _amount = -_amount; } }
         }
 
-        public DateTime EntryDate {
-            get { return _entryDate; }
-            set { _entryDate = value; }
+        public string EntryDate {
+            get { return _entryDate.ToShortDateString(); }
+            set { DateTime.TryParse(value, out _entryDate); }
         }
 
         public string Category { get; set; }
