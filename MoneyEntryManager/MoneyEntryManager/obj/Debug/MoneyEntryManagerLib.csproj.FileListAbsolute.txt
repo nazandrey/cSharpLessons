@@ -1,9 +1,0 @@
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\MoneyEntryManager.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\MoneyEntryManager.pdb
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\Filter.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\Money.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\Filter.pdb
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\bin\Debug\Money.pdb
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManagerLib.csprojResolveAssemblyReference.cache
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManager.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\MoneyEntryManager\MoneyEntryManager\obj\Debug\MoneyEntryManager.pdb

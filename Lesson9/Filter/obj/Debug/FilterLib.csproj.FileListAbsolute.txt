@@ -1,5 +1,0 @@
-D:\Projects\C# base course\!BitBucket\c-_lessons\Lesson9\Filter\bin\Debug\Filter.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\Lesson9\Filter\bin\Debug\Filter.pdb
-D:\Projects\C# base course\!BitBucket\c-_lessons\Lesson9\Filter\obj\Debug\FilterLib.csprojResolveAssemblyReference.cache
-D:\Projects\C# base course\!BitBucket\c-_lessons\Lesson9\Filter\obj\Debug\Filter.dll
-D:\Projects\C# base course\!BitBucket\c-_lessons\Lesson9\Filter\obj\Debug\Filter.pdb
